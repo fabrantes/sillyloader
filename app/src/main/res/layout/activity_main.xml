@@ -1,0 +1,23 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp">
+
+    <org.abrantix.sillyloaderapp.app.SillyLoadingView
+        android:id="@+id/loading"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+        app:color="#2f2f2f"
+        app:angleBounce="30"
+        app:angleDelta="340"
+        app:stepAngleDelta="120"
+        app:strokeWidth="3dp"
+        app:duration="999"
+        app:desyncFactor="0.5"/>
+
+</RelativeLayout>

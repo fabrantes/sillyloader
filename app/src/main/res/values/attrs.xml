@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<declare-styleable name="SillyLoadingView">
+        <attr name="color" format="color"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="angleDelta" format="float"/>
+        <attr name="stepAngleDelta" format="float"/>
+        <attr name="angleBounce" format="float"/>
+        <attr name="duration" format="integer"/>
+        <attr name="desyncFactor" format="float"/>
+    </declare-styleable>
+
+</resources>
